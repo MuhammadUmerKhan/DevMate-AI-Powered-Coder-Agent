@@ -1,0 +1,17 @@
+[project]
+name = "devmate-ai-powered-coder-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-groq",
+    "openai",
+    "python-dotenv",
+    "pydantic",
+    "langchain-core",
+    "langgraph",
+    "rich>=14.1.0",
+    "langchain-openai>=0.3.32",
+]
